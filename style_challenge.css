@@ -18,7 +18,7 @@
 ### Neutral */
 
 --White: hsl(0, 0%, 100%);
---Pale-blue: hsl(221, 100%, 96%);
+--Pale-blue: hsl(221, 100%, 96%); 
 --Light-lavender: hsl(241, 100%, 89%);
 --Dark-gray-blue: hsl(224, 30%, 27%) ;
 }
@@ -43,8 +43,11 @@ body{
     font-size: 1.8rem;
    width: 100vw;
    overflow: hidden;
+
+  
  
 }
+
 
 .card_container{
     display: flex;
@@ -59,9 +62,9 @@ body{
 }
 @media only screen and (max-width:375px) {
  .card_container{
-    display:flex;
- margin-top: -10rem;
- align-items: center;
+  position: absolute;
+  top:-2.5rem;
+  left:0;
 flex-direction: column;
 width:100%;
  }     
@@ -90,8 +93,9 @@ width:100%;
 @media only screen and (max-width:375px) {
     .result{
      height:100%;
-      width:48rem;
-      margin-top: 14rem;
+    width:46rem;
+      
+      
     }     
    }
 
